@@ -1,7 +1,9 @@
 def shiftN(stringvalue, direction, N):
-    ##################################################
-    # make your code
-    ##################################################
+    # Shift left
+    if direction == 0: 
+
+    # Shift right
+    if direction == 1:
     return stringvalue
 
 
