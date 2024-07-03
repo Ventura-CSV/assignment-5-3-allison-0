@@ -1,9 +1,10 @@
 def shiftN(stringvalue, direction, N):
     # Shift left
     if direction == 0: 
-
+        stringvalue = stringvalue[N:] + '0' * N
     # Shift right
-    if direction == 1:
+    elif direction == 1:
+        stringvalue = '0' * N + stringvalue[:-N]
     return stringvalue
 
 
